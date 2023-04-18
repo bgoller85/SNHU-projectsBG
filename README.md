@@ -2,21 +2,23 @@
 //Programming Languages//
 
 \\Corner Grocer App Reflection\\
-Summarize the project and what problem it was solving.
+
+1. Summarize the project and what problem it was solving.
   This project was for a grocery store to see what items their customers purchased the most. It took an input file and read items to see how many times each item appeared. It then outputted the item name and frequency using menu options for the user to choose from that allowed them to either pick an item and see it's frequency, print the full list of items with their numerical frequency, print the list in histogram form and an option to exit the menu. This also output a text file with item names and their frequency.
   
-What did you do particularly well?
+2. What did you do particularly well?
 My code utilized classes and functions very well so that the only code in my main function was to call the other functions.
 
-Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+3. Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
 I could maybe make the classes in different header files so that if I needed to grow the program I could just include those header files and inherit from the function classes to create new specific functions like lableling the items into seperate categories so that the user could see the frequency of fruits or vegetables etc. 
-Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
+
+4. Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
 The map function was new to me and I had to flip back through the zybooks lecture on the matter and I referenced some examples in stackoverflow.
 
-What skills from this project will be particularly transferable to other projects or course work?
+5. What skills from this project will be particularly transferable to other projects or course work?
 Many programming languages are similar, so the skills from this project could help with java or python projects as well
 
-How did you make this program maintainable, readable, and adaptable?
+6. How did you make this program maintainable, readable, and adaptable?
 I used switch cases instead of if-else statements for my menu functions for a cleaner code appearance and faster functionality. It would also be easier to make changes the menu this way. I added in-line comments to help with understanding the funciton of my code.
 
 
