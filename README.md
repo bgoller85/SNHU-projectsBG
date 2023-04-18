@@ -34,11 +34,11 @@ I used switch cases instead of if-else statements for my menu functions for a cl
   
 3. What does it mean to be a good team member in software development?
 
-  Be respectful of others
-  Commit to the project
-  Accept responsibility and be accountable
-  Work collaboratively and make decisions with the team
-  Recognize and celebrate individual and team accomplishments
-  Provide feedback in a constructive manner and don't take offense to constructive feedback
-  Abide by the agile manifesto values
-  Be on time and productive
+  -Be respectful of others
+  -Commit to the project
+  -Accept responsibility and be accountable
+  -Work collaboratively and make decisions with the team
+  -Recognize and celebrate individual and team accomplishments
+  -Provide feedback in a constructive manner and don't take offense to constructive feedback
+  -Abide by the agile manifesto values
+  -Be on time and productive
