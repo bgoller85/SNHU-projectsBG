@@ -1,5 +1,6 @@
 # SNHU-projectsBG
 //Programming Languages//
+
 \\Corner Grocer App Reflection\\
 Summarize the project and what problem it was solving.
   This project was for a grocery store to see what items their customers purchased the most. It took an input file and read items to see how many times each item appeared. It then outputted the item name and frequency using menu options for the user to choose from that allowed them to either pick an item and see it's frequency, print the full list of items with their numerical frequency, print the list in histogram form and an option to exit the menu. This also output a text file with item names and their frequency.
