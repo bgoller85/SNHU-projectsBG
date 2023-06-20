@@ -1,5 +1,7 @@
 # SNHU-projectsBG
 //Operating Platforms//
+
+\\The Gaming Room reflection\\
 1. Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design? What did you do particularly well in developing this documentation?
 
 The client was The Gaming Room. They currently had a game called Draw It or Lost It for Android. The Gaming Room wanted to improve the software functionality and to expand to other platforms. I kept this document clear, concise, and to the point.
