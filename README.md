@@ -1,4 +1,29 @@
 # SNHU-projectsBG
+//Operating Platforms//
+1. Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design? What did you do particularly well in developing this documentation?
+
+The client was The Gaming Room. They currently had a game called Draw It or Lost It for Android. The Gaming Room wanted to improve the software functionality and to expand to other platforms. I kept this document clear, concise, and to the point.
+
+2. What did you do particularly well in developing this documentation?
+
+My description of the domain model and the server/client side descriptions for different operating platforms was well desinged and written.
+
+3. What about the process of working through a design document did you find helpful when developing the code?
+
+It helps to keep you focused on the task at hand and to decide on what tasks are important and which ones don't need time and focus on.
+
+4. If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+
+Recomendations were hard for me, I haven't had a ton of experience in programming before beginning my computer science degree. After I have had more in field experience, I would revise my recommendations based off what I have been successful with.
+
+5. How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
+
+I took what was needed for the functionallity of the game and then split it up so that there would be less work and time spent expanding to other operating platforms. All while still keeping the game the same. Your client may be the one to ask you to do the work, but it's the users who truely control the product. If they don't trust the software or have problems with it, then they won't use it.
+
+6. How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+
+I put my focus on clear documentation and game functionality to allow easier updates and maintenence. I believe that in the future I will be part of a team, so I would take my experiences and those of my peers, and find the best solution to complete the project.
+
 //Programming Languages//
 
 \\Corner Grocer App Reflection\\
