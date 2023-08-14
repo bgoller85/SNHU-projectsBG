@@ -1,0 +1,153 @@
+// ProjectTwoCourseInfo(BG).cpp : This file contains the 'main' function. Program execution begins and ends there.
+// Author: Brandon Goller
+// Date: 8/10/2023
+// SNHU CS-300
+//
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <map>
+#include <algorithm>
+#include <string>
+
+using namespace std;
+
+// Course structure
+struct Course {
+    string courseNumber;
+    string name;
+    vector<string> prerequisites;
+};
+
+// Function to validate if a string is empty or consists of only spaces
+bool isBlank(const string& str) {
+    return all_of(str.begin(), str.end(), [](char c) { return c == ' '; });
+}
+
+// Function to load data from the file into the data structure
+bool loadDataStructure(const string& filePath, map<string, Course>& courses) {
+    ifstream file(filePath);
+    if (!file.is_open()) {
+        cout << "Error: Unable to open or read the file" << endl;
+        return false;
+    }
+
+    while (!file.eof()) {
+        string line;
+        getline(file, line);
+
+        // Parse course information
+        if (!isBlank(line)) {
+            Course course;
+            size_t commaPos = line.find(",");
+            course.courseNumber = line.substr(0, commaPos);
+            line = line.substr(commaPos + 1);
+
+            commaPos = line.find(",");
+            course.name = line.substr(0, commaPos);
+            line = line.substr(commaPos + 1);
+
+            while (!line.empty()) {
+                commaPos = line.find(",");
+                string prerequisite = line.substr(0, commaPos);
+                if (!isBlank(prerequisite)) {
+                    course.prerequisites.push_back(prerequisite);
+                }
+                if (commaPos == string::npos) {
+                    break;
+                }
+                line = line.substr(commaPos + 1);
+            }
+
+            courses[course.courseNumber] = course;
+        }
+    }
+
+    file.close();
+    return true;
+}
+
+// Function to print a sorted list of courses in alphanumeric order
+void printCourseList(const map<string, Course>& courses) {
+    for (const auto& pair : courses) {
+        cout << pair.second.courseNumber << ", " << pair.second.name << endl;
+    }
+}
+
+// Function to print course information and its prerequisites
+void printCourseInfo(const Course& course, const map<string, Course>& courses) {
+    cout << course.courseNumber << ", " << course.name << endl;
+    if (!course.prerequisites.empty()) {
+        cout << "Prerequisites:";
+        for (const string& prerequisite : course.prerequisites) {
+            cout << " " << prerequisite;
+        }
+        cout << endl;
+    }
+}
+
+int main() {
+    map<string, Course> courses; // Data structure to store course information
+
+    while (true) {
+        cout << "Welcome to the course planner." << endl;
+        cout << "1. Load Data Structure." << endl;
+        cout << "2. Print Course List." << endl;
+        cout << "3. Print Course." << endl;
+        cout << "9. Exit" << endl;
+
+        int choice;
+        cout << "What would you like to do? ";
+        cin >> choice;
+
+        switch (choice) {
+        case 1: {
+            string filePath;
+            cout << "Enter file path: ";
+            cin.ignore(); // Clear the newline character from the input buffer
+            getline(cin, filePath);
+            if (loadDataStructure(filePath, courses)) {
+                cout << "Data loaded successfully." << endl;
+            }
+            break;
+        }
+        case 2: {
+            if (!courses.empty()) {
+                printCourseList(courses);
+            }
+            else {
+                cout << "Please load the data structure first." << endl;
+            }
+            break;
+        }
+        case 3: {
+            if (!courses.empty()) {
+                string courseNumber;
+                cout << "Enter course number: ";
+                cin.ignore(); // Clear the newline character from the input buffer
+                getline(cin, courseNumber);
+
+                auto it = courses.find(courseNumber);
+                if (it != courses.end()) {
+                    printCourseInfo(it->second, courses);
+                }
+                else {
+                    cout << "Course not found." << endl;
+                }
+            }
+            else {
+                cout << "Please load the data structure first." << endl;
+            }
+            break;
+        }
+        case 9: {
+            cout << "Thank you for using the course planner." << endl;
+            return 0;
+        }
+        default:
+            cout << choice << " is not a valid option." << endl;
+        }
+    }
+
+    return 0;
+}
