@@ -1,0 +1,28 @@
+Runtime Analysis:
+1.	Vector data structure:
+•	Opening the file and reading data: O(n) - we iterate through each line in the file.
+•	Creating course objects: O(1) - each line is processed once to create a course object.
+•	Total cost: O(n)
+2.	Hash table data structure:
+•	Opening the file and reading data: O(n) - we iterate through each line in the file.
+•	Creating course objects: O(1) - each line is processed once to create a course object.
+•	Total cost: O(n)
+3.	Tree data structure:
+•	Opening the file and reading data: O(n) - we iterate through each line in the file.
+•	Creating course objects: O(log n) - for a balanced binary search tree, the cost to insert an element is logarithmic.
+•	Total cost: O(n log n)
+Advantages and Disadvantages of Each Data Structure:
+•	Vector:
+•	Advantages: Simple implementation, easy to access elements by index, good for maintaining order.
+•	Disadvantages: Costly for searching elements, slower for large datasets.
+•	Hash Table:
+•	Advantages: Fast for searching elements (average-case), constant time complexity for access (assuming good hash function), efficient for large datasets.
+•	Disadvantages: No inherent order, hash collisions may lead to performance degradation.
+•	Tree:
+•	Advantages: Efficient searching and insertion (logarithmic time complexity), maintains order, well-balanced trees offer stable performance.
+•	Disadvantages: Extra memory overhead, complexity in maintaining the balanced tree structure.
+Recommendation:
+Based on the runtime analysis and the specific requirements of the project, the Hash Table data structure seems to be the most suitable choice. It offers fast searching and insertion, which are essential for the program's functionality.
+Additionally, the Hash Table has a lower time complexity for creating course objects compared to the Tree data structure. While the Tree could have better search performance for large datasets, it comes with extra memory overhead, which may not be necessary for this scenario.
+Considering the specific tasks of printing course information and prerequisites for a given course, the Hash Table's constant time complexity for access will be advantageous.
+In conclusion, the Hash Table data structure is recommended for this project due to its efficient search, constant time access, and suitability for the outlined requirements.
