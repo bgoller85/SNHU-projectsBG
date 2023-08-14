@@ -1,4 +1,18 @@
 # SNHU-projectsBG
+//Analysis and Design//
+
+\\Journal\\
+What was the problem you were solving in the projects for this course?
+The goal was to create a program that can load course data from a file, store it in a suitable data structure, and provide various functionalities like listing all courses, displaying specific course information, and handling prerequisites.
+How did you approach the problem? Consider why data structures are important to understand.
+The approach involved reading data from a file, parsing it into meaningful course objects, and storing these objects in a data structure. The program then offered different operations on this data, such as displaying course lists and information. Understanding data structures is crucial for solving such problems because they provide a way to efficiently organize and access data, which directly impacts the performance and usability of the program. The choice of data structure can significantly affect the efficiency of various operations like insertion, retrieval, and searching.
+How did you overcome any roadblocks you encountered while going through the activities or project?
+Through careful testing, debugging and some help from drop-in tutoring I was able to overcome all roadblocks that I ran into.
+How has your work on this project expanded your approach to designing software and developing programs?
+Working on this project expanded my approach to designing software by emphasizing the importance of data structure selection based on the requirements of the problem. It highlighted the trade-offs between different data structures and how they impact performance. Additionally, I gained experience in designing user-friendly interfaces, handling user input, and managing program flow.
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+This project helped me develop skills in writing maintainable, readable, and adaptable programs. The code in project two demonstrates good practices such as using meaningful variable and function names, modularizing code into functions, and providing comments for clarity. These practices enhance code readability and maintainability. Additionally, the program's structure allows for easy adaptation to future changes or enhancements, showcasing the flexibility of my design.
+
 //Operating Platforms//
 
 \\The Gaming Room reflection\\
