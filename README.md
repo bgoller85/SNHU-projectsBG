@@ -9,7 +9,7 @@
     The approach involved reading data from a file, parsing it into meaningful course objects, and storing these objects in a data structure. The program then offered different operations on this data, such as   
     displaying course lists and information. Understanding data structures is crucial for solving such problems because they provide a way to efficiently organize and access data, which directly impacts the 
     performance and usability of the program. The choice of data structure can significantly affect the efficiency of various operations like insertion, retrieval, and searching.
-3. How did you overcome any roadblocks you encountered while going through the activities or project?
+3.How did you overcome any roadblocks you encountered while going through the activities or project?
     Through careful testing, debugging and some help from drop-in tutoring I was able to overcome all roadblocks that I ran into.
 4. How has your work on this project expanded your approach to designing software and developing programs?
     Working on this project expanded my approach to designing software by emphasizing the importance of data structure selection based on the requirements of the problem. It highlighted the trade-offs between 
