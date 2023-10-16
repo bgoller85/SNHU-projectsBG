@@ -1,4 +1,28 @@
 # SNHU-projectsBG
+//Software Security//
+
+\\Journal\\
+1. Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+Artemis Financial, a financial consulting company, was our client, and they sought to modernize their operations while increasing the security of their public web application. They offered financial planning services encompassing savings, retirement, investments, and insurance, which necessitated highly secure software. The primary concern was implementing encryption, especially the Advanced Encryption Standard (AES) for data protection. The client needed security layers to safeguard sensitive financial data.
+
+2. What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
+We conducted a thorough vulnerability assessment, identifying and addressing vulnerabilities methodically. This diligence ensured that security flaws were not merely patched but fundamentally addressed. Coding securely is essential because it guards against data breaches, financial losses, and reputational damage. Software security enhances a company's overall wellbeing by safeguarding its assets, maintaining customer trust, and ensuring compliance with regulations.
+
+3. What part of the vulnerability assessment was challenging or helpful to you?
+One challenging aspect of the vulnerability assessment was reconciling the need for tight security without compromising system functionality. Striking a balance between robust security measures and a user-friendly experience was pivotal. It helped us appreciate the delicate trade-offs in software security.
+
+4. How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
+We increased security layers by implementing robust encryption using AES, secure hash functions (SHA-256), and ensuring the proper use of asymmetric cryptography for signing. In the future, we would employ tools like penetration testing and code analysis to assess vulnerabilities comprehensively. Deciding on mitigation techniques would involve evaluating risks and matching them with appropriate countermeasures, considering factors like severity and potential impact.
+
+5. How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+We conducted thorough testing to ensure both functionality and security. The process included unit testing, integration testing, and security testing. After refactoring the code, we employed regression testing to verify that new vulnerabilities were not introduced. This included running security scans and monitoring the application for any unusual activities.
+
+6. What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
+In this assignment, we utilized various resources like security libraries, cryptographic best practices, and industry standards. We also employed development and testing tools such as code analyzers, testing frameworks, and security scanning tools. These resources, combined with a deep understanding of secure coding practices, will be invaluable in future assignments and real-world tasks.
+
+7. Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+From this assignment, I can showcase my ability to perform a comprehensive vulnerability assessment and implement security enhancements. I can demonstrate my proficiency in cryptographic techniques, secure coding practices, and my understanding of industry standards. Additionally, I can highlight my skill in conducting secure code refactoring while ensuring the software remains functional and free from new vulnerabilities. This assignment is a strong example of my software security expertise, which can be valuable for future employers seeking robust security practices.
+
 //Software Test Automation & QA//
 
 \\Reflection\\
