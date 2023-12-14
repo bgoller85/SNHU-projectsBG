@@ -1,4 +1,15 @@
 # SNHU-projectsBG
+//Client-Server Development//
+
+\\Journal\\
+1. How do you write programs that are maintainable, readable, and adaptable? 
+Writing maintainable, readable, and adaptable programs involves following best practices, such as modularizing code and adhering to a clean code style. In Project One, the CRUD Python module was designed to handle database operations, providing a clear separation of concerns. This modular approach facilitated easy integration with the dashboard in Project Two. The advantages included code reusability, easier debugging, and scalability. In the future, this CRUD module could be extended for additional database interactions in different projects, promoting consistency and reducing development time.
+
+2. How do you approach a problem as a computer scientist? 
+As a computer scientist, approaching a problem involves understanding requirements, breaking down tasks, and utilizing appropriate tools. For Grazioso Salvare, I began by comprehending the needs and translating them into database and dashboard specifications. This project differed from others by involving a full-stack approach, integrating MongoDB and Dash. In the future, I would employ similar strategies, emphasizing a systematic problem-solving approach, understanding client needs, and choosing technologies tailored to the project's requirements.
+
+3. What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+Computer scientists design, implement, and optimize software solutions to address real-world challenges. In the context of Grazioso Salvare, my work contributes by providing an efficient and user-friendly dashboard to streamline their dog identification and training processes. The project enhances data accessibility, allowing them to make informed decisions about search-and-rescue dog candidates. The application of technology in this manner can significantly improve Grazioso Salvare's operations, making their workflow more efficient and aiding in the identification of suitable dogs for training.
 //Software Security//
 
 \\Journal\\
