@@ -1,4 +1,22 @@
 # SNHU-projectsBG
+//Comp Graphic & Visualization//
+
+\\Reflection\\
+Designing Software
+Approach: My approach to designing software begins with understanding the problem, sketching out initial ideas, and then iteratively refining them. In this project, I started by analyzing the 2D image and envisioning how each object could be translated into 3D space.
+New Design Skills: This project helped me craft skills in spatial thinking and 3D modeling. I learned to deconstruct complex objects into simpler geometric forms, an essential skill in 3D design.
+Design Process: My design process involved initial sketches, selecting appropriate primitive shapes for each object, and then detailing them with textures and lighting. This methodical process was key in translating a 2D image into a 3D scene.
+Future Application: The tactics from this design approach, especially breaking down complex objects into basic shapes, can be applied in future work like game design, architectural visualization, and VR/AR development.
+Developing Programs
+Approach: My development approach is iterative and test-driven. I start with a basic implementation and gradually add complexity while constantly testing for functionality and visual accuracy.
+New Development Strategies: In developing the 3D scene, I used OpenGL for the first time, which broadened my understanding of graphical programming and 3D rendering.
+Iteration in Development: Iteration was crucial. Each object in the scene went through multiple iterations, from basic shapes to detailed, textured models. This approach ensured accuracy and quality in the final output.
+Evolution of Code Development: My code development evolved to be more modular and reusable. Functions like GenerateCylinder were developed to create objects with varying parameters, demonstrating an evolution from hard-coded models to more dynamic, flexible coding.
+Computer Science and Personal Goals
+Relevance to Goals: Computer science, especially computational graphics and visualization, is instrumental in reaching my goals in fields like game development, animation, and interactive media design.
+Educational Pathway: Through this project, I've gained invaluable skills in 3D modeling, lighting, and texturing, which are directly applicable in my educational pursuits in computer graphics and game design.
+Professional Pathway: The knowledge of computational graphics will be highly beneficial in my professional journey, especially in roles that involve creating visual content for media, advertising, or software development. The understanding of how to create realistic 3D scenes is a skill in high demand in many tech-driven industries.
+
 //Client-Server Development//
 
 \\Journal\\
