@@ -45,5 +45,6 @@ const tripsFindCode = async(req,res) => {
 };
 
 module.exports = {
-    tripsList
+    tripsList,
+    tripsFindCode
 };
