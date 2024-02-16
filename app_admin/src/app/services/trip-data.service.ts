@@ -20,17 +20,33 @@ export class TripDataService {
       .catch(this.handleError);
   }
 
-  public async getTrips(): Promise<Trip[]> {
+  public getTrips(): Promise<Trip[]> {
     console.log('Inside TripDataService#getTrips');
-    try {
-      const response = await this.http
-        .get(`${this.apiBaseUrl}trips`)
-        .toPromise();
-      return response.json() as Trip[];
-    } catch (error) {
-      return this.handleError(error);
-    }
+    return this.http
+        .get(this.tripUrl)
+        .toPromise()
+        .then(respone => respone.json() as Trip[])
+        .catch(this.handleError);
   }
+  public getTrip(tripCode: string): Promise<Trip> { 
+    console.log('Inside TripDataService#getTrip(tripCode)'); 
+    return this.http
+      .get(this.tripUrl + tripCode) 
+      .toPromise() 
+      .then(response => response.json() as Trip) 
+      .catch(this.handleError); 
+  }
+
+  public updateTrip(formData: Trip): Promise<Trip> { 
+    console.log('Inside TripDataService#upateTrip'); 
+    console.log(formData); 
+    return this.http 
+      .put(this.tripUrl + formData.code, formData) 
+      .toPromise() 
+      .then(response => response.json() as Trip[]) 
+      .catch(this.handleError); 
+  }
+  
   private handleError(error: any): Promise<any> {
     console.error('Something has gone wrong', error); //for demo purposes only
     return Promise.reject(error.message || error);
