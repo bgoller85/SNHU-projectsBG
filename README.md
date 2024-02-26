@@ -1,4 +1,37 @@
 # SNHU-projectsBG
+//Full Stack Development I//
+
+\\TRAVLR Project README\\
+Overview
+This project is a full-stack web application that serves both the customer and administrative sides of the application. It utilizes the MEAN stack (MongoDB, Express.js, Angular, and Node.js) for robust, full-stack development.
+
+The customer-facing side offers users an intuitive interface for exploring and booking travel packages, while the admin side allows for efficient management of these packages and user data.
+
+Architecture
+Frontend Development
+The frontend development includes the use of Express HTML, JavaScript, and a single-page application (SPA) built with Angular. Express HTML is used for rendering server-side pages, while the SPA provides a dynamic and responsive user experience, allowing users to navigate between different sections of the application without page refreshes.
+
+Backend Development
+The backend development uses Node.js and Express.js for server-side scripting. A NoSQL MongoDB database is used for data storage due to its flexibility and scalability.
+
+Functionality
+JSON vs JavaScript
+JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write, while JavaScript is a programming language used to create interactive effects within web browsers. JSON ties together the frontend and backend development pieces by providing a standardized way to represent and exchange data between the two.
+
+Refactoring and Reusable UI Components
+During the full-stack process, code was refactored to improve functionality and efficiencies. For example, reusable UI components were created to reduce code duplication and improve maintainability. The benefits of reusable UI components include improved consistency, reduced development time, and easier debugging.
+
+Testing
+API Testing
+Methods for request and retrieval necessitate various types of API testing of endpoints. This includes unit testing, integration testing, and end-to-end testing to ensure that the API functions as expected.
+
+Security
+Security is an important aspect of a full-stack application. It involves securing endpoints, implementing authentication and authorization mechanisms, and ensuring data privacy.
+
+Reflection
+This course has helped me reach my professional goals by providing me with a solid foundation in full-stack development. I have learned and developed skills in frontend and backend development, database management, and testing. These skills make me a more marketable candidate in my career field, as they are in high demand in the industry.
+
+
 //Current/Emerging Trends in CS//
 
 \\Reflection\\
