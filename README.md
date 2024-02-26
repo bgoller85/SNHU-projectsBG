@@ -1,4 +1,13 @@
 # SNHU-projectsBG
+//Current/Emerging Trends in CS//
+
+\\Reflection\\
+For the pirate intelligent agent project, I was given a partially complete reinforcement learning model that utilized a Q-learning algorithm to train an agent to navigate through a maze and reach a goal. The code I was given included the basic structure of the maze, the game environment, and some of the Q-learning algorithm implementation. My contributions to the project involved completing the Q-learning algorithm implementation, tuning hyperparameters, and testing the model to ensure its effectiveness.
+
+Throughout this course, I've learned that computer scientists play a crucial role in advancing technology and solving complex problems in various domains. They develop algorithms, design systems, and create software to automate tasks, analyze data, and solve real-world problems. As a computer scientist, my approach to solving problems involves breaking down complex tasks into smaller, more manageable components, designing algorithms and data structures to solve those components, and implementing those solutions using programming languages and tools.
+
+In addition to technical skills, computer scientists have ethical responsibilities to consider. We must ensure that our work does not harm others or violate ethical principles. This includes considering the privacy and security of user data, ensuring fairness and transparency in algorithmic decision-making, and adhering to ethical guidelines and professional standards. Ultimately, the goal of computer science is to use technology to improve people's lives, and this requires us to prioritize ethical considerations in our work.
+
 //Comp Graphic & Visualization//
 
 \\Reflection\\
