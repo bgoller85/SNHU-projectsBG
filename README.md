@@ -4,7 +4,6 @@
 \\TRAVLR Project README\\
 --Overview--
 This project is a full-stack web application that serves both the customer and administrative sides of the application. It utilizes the MEAN stack (MongoDB, Express.js, Angular, and Node.js) for robust, full-stack development.
-
 The customer-facing side offers users an intuitive interface for exploring and booking travel packages, while the admin side allows for efficient management of these packages and user data.
 
 --Architecture--
