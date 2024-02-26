@@ -1,4 +1,18 @@
 # SNHU-projectsBG
+//Mobile Architect & Programming//
+
+\\Reflection\\
+The app I developed was a simple inventory management application designed to help users keep track of their inventory of items. The main goal of the app was to provide a simple and intuitive interface for users to manage their inventory, add new items, update quantities, and remove items.
+
+To support user needs and produce a user-centered UI, the app needed screens and features such as a list view of items, an item detail view, a form to add new items, and a form to update item quantities. The UI designs were kept user-friendly by using clear labels and instructions, logical grouping of related elements, and consistent styling. The designs were successful because they were easy to understand and use, and they provided a clear and intuitive way for users to manage their inventory.
+
+In the process of coding the app, I used techniques such as modularizing code, using design patterns like MVC (Model-View-Controller), and following best practices for naming conventions and coding style. These techniques can be applied in the future to make code more maintainable, scalable, and easier to understand.
+
+To ensure the code was functional, I tested it using unit tests and manual testing. This process is important because it helps catch bugs and errors early in the development process, and it ensures that the app functions as intended. Testing revealed some bugs and issues, such as incorrect handling of edge cases and inconsistencies in the UI, which were fixed before finalizing the app.
+
+In the app design and development process, I had to innovate to overcome a challenge related to data storage and management. I had to design a database schema that could efficiently store and retrieve inventory data, and I had to implement methods for adding, updating, and removing items from the database. This required careful planning and consideration of the app's requirements and constraints.
+
+One specific component of the mobile app where I was particularly successful in demonstrating my knowledge, skills, and experience was in implementing the database management functionality. I was able to design and implement a database schema that efficiently stored and retrieved inventory data, and I was able to implement methods for adding, updating, and removing items from the database. This required a good understanding of databases, SQL, and Android development, and it allowed me to effectively manage and manipulate data in the app.
 //Full Stack Development I//
 
 \\TRAVLR Project README\\
