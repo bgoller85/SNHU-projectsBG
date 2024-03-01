@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const Trip = mongoose.model('trips');
+const User = mongoose.model('users');
 
 //GET: /trips - lists all the trips
 const tripsList = async(req,res) => {
@@ -118,7 +119,7 @@ const getUser = (req, res, callback) => {
     if (req.payload && req.payload.email) {
         User
             .findOne({ email: req.payload.email })
-                .exec((err, User) => {
+                .exec((err, user) => {
                     if (!user) {
                         return res
                             .status(404)
