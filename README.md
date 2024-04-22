@@ -1,4 +1,14 @@
 # SNHU-projectsBG
+//System Analysis & Design//
+
+\\Reflection\\
+The DriverPass project aimed to design a comprehensive system for improving driver training and preparation for driving tests at local departments of motor vehicles (DMV). The client, DriverPass, wanted a system that facilitated online practice exams, on-the-road training, scheduling, progress tracking, and interaction with instructors.
+One thing I did particularly well was considering both functional and nonfunctional requirements in the business requirements document. By outlining detailed requirements, I ensured clarity and alignment with the client's needs.
+If I could revise one part of my work, I would focus on improving the security section by providing more specific details on encryption methods, authentication mechanisms, and data protection measures. Enhancing this section would strengthen the overall security posture of the system.
+To interpret the user's needs, I carefully analyzed the interview transcript and identified key functionalities and features required by DriverPass's target users. Incorporating these needs into the system design ensured that the final product met user expectations and provided a positive user experience.
+Considering the user's needs is essential in designing software because it ultimately determines the success and adoption of the system. By understanding user requirements, preferences, and pain points, designers can create solutions that address real-world challenges and deliver value to users.
+In approaching software design, I employ a systematic approach that involves gathering requirements, analyzing user needs, creating design models (such as UML diagrams), and iterating based on feedback. In the future, I would continue to use techniques like requirement elicitation, prototyping, and user testing to refine system designs and ensure they meet user expectations effectively.
+
 //Mobile Architect & Programming//
 
 \\Reflection\\
