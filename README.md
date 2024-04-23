@@ -1,4 +1,25 @@
 # SNHU-projectsBG
+//Emerging Sys Arch & Tech//
+\\Reflection\\
+Summary:
+This project focuses on developing a smart thermostat prototype using the TI CC3220 board. The goal is to create a functional prototype that reads room temperature, controls a heating element, and simulates data transmission to a server over Wi-Fi. The project also involves analyzing hardware architectures and recommending the most suitable one based on business requirements.
+
+Project Artifacts:
+Code Implementation: The code implementation showcases my ability to write interface software to control hardware components effectively. It includes initialization and usage of peripherals such as GPIO, UART, I2C, and Timer to achieve the desired functionality.
+
+Hardware Architecture Analysis: In the project report, I thoroughly analyzed various hardware architectures (TI, Microchip, Freescale) based on business requirements. I recommended and justified the architecture decision, considering factors like peripheral support, Wi-Fi connectivity, and memory capacity.
+
+Reflection:
+Strengths: I demonstrated strong problem-solving skills throughout the project, particularly in troubleshooting hardware interfacing issues and optimizing code performance.
+
+Areas for Improvement: While I effectively implemented the core functionality, I could improve code modularity and documentation to enhance readability and maintainability.
+
+Support Network: Throughout the project, I utilized various resources such as online documentation, forums, and external tutors to overcome challenges and deepen my understanding of embedded systems concepts.
+
+Transferable Skills: The skills developed in this project, including hardware interfacing, system architecture analysis, and problem-solving, are highly transferable to future projects and coursework in the field of embedded systems and IoT.
+
+Maintainability and Readability: To ensure the project's maintainability, I followed coding best practices such as modularization, clear commenting, and descriptive variable naming. Additionally, I structured the code logically and documented the hardware setup and initialization procedures for easy adaptability.
+
 //System Analysis & Design//
 
 \\Reflection\\
